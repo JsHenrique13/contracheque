@@ -9,7 +9,6 @@ filename = "cheque.pdf"
 # load the PDF file
 pdf = Pdf.open(filename)
 p = 1 
-
  
 for n, page in enumerate(pdf.pages):
 
